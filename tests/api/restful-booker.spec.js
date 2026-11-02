@@ -1,6 +1,5 @@
 // tests/api/restful-booker.spec.js
 // Booking lifecycle on Restful-Booker: each request uses data from the previous one.
-
 const { test, expect } = require('@playwright/test');
 
 const BASE_URL = 'https://restful-booker.herokuapp.com';
